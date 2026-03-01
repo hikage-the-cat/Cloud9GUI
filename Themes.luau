@@ -1,4 +1,4 @@
-local Frosted Themes = {
+FrostedThemes = {
 
     -- Dark Glass
     DarkGlass = {
@@ -211,7 +211,7 @@ local Frosted Themes = {
 
     }
 
-local Themes = {
+Themes = {
 
     -- Dark Purple (Original Style)
     DarkPurple = {
