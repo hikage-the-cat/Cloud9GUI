@@ -1,5 +1,6 @@
 -- deps
-local tabs = loadstring(game:HttpGet("https://raw.githubusercontent.com/hikage-the-cat/Cloud9GUI/refs/heads/main/Themes.luau",true))()
+local themes = loadstring(game:HttpGet("https://raw.githubusercontent.com/hikage-the-cat/Cloud9GUI/refs/heads/main/Themes.luau",true))()
+local tabs = loadstring(game:HttpGet("https://raw.githubusercontent.com/hikage-the-cat/Cloud9GUI/refs/heads/main/Tabs.luau",true))()
 local uis = game:GetService("UserInputService")
 local ts = game:GetService("TweenService")
 local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad)
