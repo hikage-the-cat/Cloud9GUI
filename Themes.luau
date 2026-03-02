@@ -1,4 +1,4 @@
-FrostedThemes = {
+local FrostedThemes = {
 
     -- Dark Glass
     DarkGlass = {
@@ -34,7 +34,6 @@ FrostedThemes = {
         StrokeThickness= 2
     },
 
-
     -- Neon Blue Glass
     NeonGlass = {
         Background     = Color3.fromRGB(15,25,40),
@@ -68,7 +67,6 @@ FrostedThemes = {
         StrokeTrans    = 0.2,
         StrokeThickness= 2
     },
-
 
     -- Matrix Glass
     MatrixGlass = {
@@ -104,7 +102,6 @@ FrostedThemes = {
         StrokeThickness= 2
     },
 
-
     -- Crimson Glass
     CrimsonGlass = {
         Background     = Color3.fromRGB(40,15,15),
@@ -138,7 +135,6 @@ FrostedThemes = {
         StrokeTrans    = 0.2,
         StrokeThickness= 2
     },
-
 
     -- Light Glass
     LightGlass = {
@@ -174,7 +170,6 @@ FrostedThemes = {
         StrokeThickness= 2
     },
 
-
     -- Cyberpunk Glass
     CyberGlass = {
         Background     = Color3.fromRGB(25,15,40),
@@ -208,10 +203,9 @@ FrostedThemes = {
         StrokeTrans    = 0.2,
         StrokeThickness= 2
     }
+}
 
-    }
-
-Themes = {
+local Themes = {
 
     -- Dark Purple (Original Style)
     DarkPurple = {
@@ -468,4 +462,9 @@ Themes = {
         FontSize = 13,
         TitleFontSize = 15,
     },
+}
+
+return {
+    FrostedThemes = FrostedThemes,
+    Themes = Themes
 }
